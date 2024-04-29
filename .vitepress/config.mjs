@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/vue-migration-documentation/",
   title: "Vue 2 to 3 Migration",
   description: "vue 2 to 3 migration guide",
   themeConfig: {
