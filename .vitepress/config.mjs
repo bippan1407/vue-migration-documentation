@@ -3,12 +3,12 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Vue 2 to 3 Migration",
-  description: "Vue 2 to 3 Migration Guide",
+  description: "vue 2 to 3 migration guide",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
+      { text: "Examples", link: "/docs/examples/using-vue-migration" },
     ],
 
     sidebar: [
@@ -26,28 +26,60 @@ export default defineConfig({
         ],
       },
       {
+        text: "vuex-to-pinia-transform",
+        items: [
+          {
+            text: "command line interface",
+            link: "/docs/vuex-to-pinia-transform/cli",
+          },
+          {
+            text: "json configuration file",
+            link: "/docs/vuex-to-pinia-transform/json-configuration",
+          },
+          {
+            text: "options",
+            link: "/docs/vuex-to-pinia-transform/options",
+          },
+        ],
+      },
+      {
         text: "Using vue-migration",
         items: [
           {
             text: "Command line interface",
-            link: "/docs/using-vue-migration/cli",
+            link: "/docs/vue-migration/cli",
           },
           {
             text: "JSON configuration file",
-            link: "/docs/using-vue-migration/json-configuration",
+            link: "/docs/vue-migration/json-configuration",
           },
           {
             text: "Options",
-            link: "/docs/using-vue-migration/options",
+            link: "/docs/vue-migration/options",
           },
         ],
       },
-      { text: "Example", link: "docs/example" },
-      { text: "Runtime API Examples", link: "docs/api-examples" },
+      {
+        text: "Example",
+        items: [
+          {
+            text: "Example using vue-migration",
+            link: "/docs/examples/using-vue-migration",
+          },
+          {
+            text: "Example using vuex-to-pinia-transform",
+            link: "/docs/examples/using-vuex-to-pinia-transform",
+          },
+          {
+            text: "Example using both vue-migration and vuex-to-pinia-transform",
+            link: "/docs/examples/using-vuex-to-pinia-transform-and-vue-migration",
+          },
+        ],
+      },
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/bippan1407/vue-migration" },
     ],
   },
 });

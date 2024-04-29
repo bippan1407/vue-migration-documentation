@@ -4,22 +4,12 @@ layout: home
 
 hero:
   name: "Vue 2 to 3 Migration"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  # text: "A VitePress Site"
+  tagline: converts vue 2 syntax to vue 3 composition. 
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Getting started
+      link: /docs/getting-started/overview
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

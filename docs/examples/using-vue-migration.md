@@ -1,6 +1,6 @@
-# Example
+# Example using vue-migration
 
-File converted by vue-migration from vue 2 syntaxt to new vue 3 composition syntax.
+File converted by vue-migration from vue 2 syntaxt to vue 3 composition syntax.
 
 Vue 2 code
 ```vue
