@@ -21,5 +21,5 @@ vue-migration --projectLocation="" --dryRun=false
 ```
 
 > [!NOTE]
-> If a have lot of options to be passed through cli it is advised to use json file as configuration. Check how json configuration [json configration](/docs/using-vue-migration/json-configuration.md) works.
+> If a have lot of options to be passed through cli it is advised to use json file as configuration. Check how json configuration [json configration](/docs/vue-migration/json-configuration.md) works.
 
